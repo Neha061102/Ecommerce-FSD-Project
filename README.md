@@ -69,14 +69,20 @@ Runs the React app at http://localhost:5173
 
 **Environment Variables**
 
-Create a .env file in backend/ with:
+Create a .env file in backend/ with:    
+    
+PORT=4000                                    
+MONGO_URI=your-mongodb-connection-string       
+JWT_SECRET=your-secret-key            
+CLOUDINARY_CLOUD_NAME=your-cloud-name          
+CLOUDINARY_API_KEY=your-api-key             
+CLOUDINARY_API_SECRET=your-api-secret   
 
-PORT=4000
-MONGO_URI=your-mongodb-connection-string
-JWT_SECRET=your-secret-key
-CLOUDINARY_CLOUD_NAME=your-cloud-name
-CLOUDINARY_API_KEY=your-api-key
-CLOUDINARY_API_SECRET=your-api-secret
+## Deployment
+
+*Frontend deployed on Vercel*  
+*Backend deployed on Vercel*       
+*Database hosted on MongoDB Atlas*       
 
 
 
