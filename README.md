@@ -45,3 +45,38 @@ Admins can manage products, categories, and track sales.
 - MongoDB Atlas (Database)            
 
 ---           
+
+## Installation & Setup
+
+**Clone the repo**
+   
+   git clone https://github.com/Neha061102/Ecommerce-FSD-Project.git
+   cd Ecommerce-FSD-Project
+
+**Backend setup**
+
+cd backend
+npm install
+npm run dev
+Runs the server at http://localhost:4000
+
+**Frontend setup**
+
+cd frontend
+npm install
+npm run dev
+Runs the React app at http://localhost:5173
+
+**Environment Variables**
+
+Create a .env file in backend/ with:
+
+PORT=4000
+MONGO_URI=your-mongodb-connection-string
+JWT_SECRET=your-secret-key
+CLOUDINARY_CLOUD_NAME=your-cloud-name
+CLOUDINARY_API_KEY=your-api-key
+CLOUDINARY_API_SECRET=your-api-secret
+
+
+
